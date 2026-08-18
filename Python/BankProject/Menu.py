@@ -1,3 +1,6 @@
+# Import the BankAccount 
+from BankAccount import BankAccount
+
 class Menu :
     
     def show_menu(self):
@@ -18,7 +21,12 @@ class Menu :
     
     # For created account
             if user == 1:
-                print("Account created successfully")
+                
+                # Methods to created aacounts 
+                def create_Account(self):
+                    # Taking input 
+                    
+                
             
     # For deposite money in account
             elif user == 2:
@@ -47,6 +55,4 @@ class Menu :
     
 
     
-menu = Menu()
-menu.show_menu()
 
